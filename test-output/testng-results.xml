@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="0" failed="0" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-13T23:49:40 IST" name="Suite" finished-at="2022-02-13T23:49:40 IST" duration-ms="74">
+    <groups>
+      <group name="Regression">
+        <method signature="LoginPageTest.checkForgotPasswordLink()[pri:0, instance:com.org.orageHrm.test.LoginPageTest@5b03b9fe]" name="checkForgotPasswordLink" class="com.org.orageHrm.test.LoginPageTest"/>
+        <method signature="LoginPageTest.checkLogin()[pri:0, instance:com.org.orageHrm.test.LoginPageTest@5b03b9fe]" name="checkLogin" class="com.org.orageHrm.test.LoginPageTest"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="LoginPageTest.checkForgotPasswordLink()[pri:0, instance:com.org.orageHrm.test.LoginPageTest@5b03b9fe]" name="checkForgotPasswordLink" class="com.org.orageHrm.test.LoginPageTest"/>
+        <method signature="LoginPageTest.checkLogin()[pri:0, instance:com.org.orageHrm.test.LoginPageTest@5b03b9fe]" name="checkLogin" class="com.org.orageHrm.test.LoginPageTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2022-02-13T23:49:40 IST" name="Test" finished-at="2022-02-13T23:49:40 IST" duration-ms="74">
+      <class name="com.org.orageHrm.test.LoginPageTest">
+        <test-method is-config="true" signature="initialSetup(java.lang.String)[pri:0, instance:com.org.orageHrm.test.LoginPageTest@5b03b9fe]" started-at="2022-02-13T23:49:40 IST" name="initialSetup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1644776380552" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method initialSetup but has not been marked @Optional or defined
+in D:\AutomationFW-BT\orangehrmdemo\testng1.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method initialSetup but has not been marked @Optional or defined
+in D:\AutomationFW-BT\orangehrmdemo\testng1.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialSetup -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.org.orageHrm.test.LoginPageTest@5b03b9fe]" started-at="2022-02-13T23:49:40 IST" name="launchApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1644776380578" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="checkForgotPasswordLink()[pri:0, instance:com.org.orageHrm.test.LoginPageTest@5b03b9fe]" started-at="2022-02-13T23:49:40 IST" name="checkForgotPasswordLink" description="Verify user able to login into appllication" finished-at="2022-02-13T23:49:40 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method initialSetup but has not been marked @Optional or defined
+in D:\AutomationFW-BT\orangehrmdemo\testng1.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method initialSetup but has not been marked @Optional or defined
+in D:\AutomationFW-BT\orangehrmdemo\testng1.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkForgotPasswordLink -->
+        <test-method is-config="true" signature="getStatus(org.testng.ITestResult)[pri:0, instance:com.org.orageHrm.test.LoginPageTest@5b03b9fe]" started-at="2022-02-13T23:49:40 IST" name="getStatus" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1644776380588" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStatus -->
+        <test-method signature="checkLogin()[pri:0, instance:com.org.orageHrm.test.LoginPageTest@5b03b9fe]" started-at="2022-02-13T23:49:40 IST" name="checkLogin" description="Verify user able to login into appllication" finished-at="2022-02-13T23:49:40 IST" depends-on-methods="com.org.orageHrm.test.LoginPageTest.checkForgotPasswordLink" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method LoginPageTest.checkLogin()[pri:0, instance:com.org.orageHrm.test.LoginPageTest@5b03b9fe] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method LoginPageTest.checkLogin()[pri:0, instance:com.org.orageHrm.test.LoginPageTest@5b03b9fe] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.org.orageHrm.test.LoginPageTest@5b03b9fe]" started-at="2022-02-13T23:49:40 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1644776380598" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.org.orageHrm.test.LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
